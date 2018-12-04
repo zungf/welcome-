@@ -187,3 +187,6 @@ client.guilds.get(member.guild.id).channels.get(channel).send(`**Invited By** ${
        });
     });
 });
+
+
+client.login(process.env.BOT_TOKEN);
